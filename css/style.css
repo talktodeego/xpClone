@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#navbar{
+    background-color: #1f1f1f;
+    padding: 30px 0 30px 0;
+}
+
+
+.header-navbar{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+    .header-navbar li{
+        padding-left: 35px;
+        color: #ffffff;
+        float: left;
+        list-style-type: none;
+        font-size: 14px;
+    }
+
+        .header-navbar .account{
+            color: #ffffff;
+            margin-left: auto;
+        }
+
+            .header-navbar .account li{
+                margin-right: 40px;
+                margin-top: 10px;
+                color: #ffffff;
+                font-size: 16px;
+            }
+
+                .header-navbar .account button{
+                    background-color: #FBC105;
+                    color: #1f1f1f;
+                    font-weight: bold;
+                    padding: 10px;
+                    border: none;
+                }
+
+                    .header-navbar .account button:hover{
+                        background-color: #FFE799;
+                        cursor: pointer;
+                    }
+
+
+.banner{
+    width: 100%;
+}
+
+.textArea{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    /* background-color: red; */
+    height: 650px;
+}
+
+.openAccount{
+    width: 40%;
+    padding-left: 20px;
+    
+}
+
+    .openAccount a{
+        color: #ffffff;
+    }
+
+    .openAccount h1{
+        color: #FBC105;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 70px;
+    }
+
+        .openAccount p{
+            padding-top: 20px;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+            .openAccount button{
+                margin-top: 60px;
+                background-color: #FBC105;
+                color: #1f1f1f;
+                font-size: 16px;
+                font-weight: bolder;
+                padding: 25px;
+                border: none;
+                margin-bottom: 20px;
+            }
+
+                .openAccount button:hover{
+                    background-color: #FFE799;
+                    cursor: pointer;
+                }
+
+.openCards{
+    display: block;
+    margin-left: auto;
+}
+
+    .openCards .card1 .cardText:hover{
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    .openCards .card2 .cardText:hover{
+        background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+    }
+
+.card1{
+    display: flex;
+    background-color: #1f1f1f;
+    width: 390px;
+    height: 125px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.card1 img{
+    width: 125px;
+    height: 125px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card1 .cardText{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.card1 .cardText p{
+    margin-bottom: 10px;
+}
+
+.card2{
+    display: flex;
+    background-color: #1f1f1f;
+    width: 390px;
+    height: 125px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.card2 img{
+    width: 125px;
+    height: 125px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card2 .cardText{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.card2 .cardText p{
+    margin-bottom: 10px;
+}
+
+.rowCards{
+    width: 65%;
+    margin: 100px auto;
+    padding-left: 60px;
+}
+
+.textAge{
+    width: 70%;
+}
+
+.textAge h1{
+    color: #121212;
+    font-size: 46px;
+    line-height: 53px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.textAge p{
+    color: #121212;
+    font-size: 18px;
+}
+
+.ageCards{
+    display: flex;
+    margin-top: 80px;
+}
+
+.ageCards img{
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.ageCards h3{
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+.ageCards p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+}
+
+.ageCards .aCards{
+    width: 30%;
+}
+
+.ageCards .aCards1{
+    width: 30%;
+    padding-left: 50px;
+}
+
+.ageCards .aCards2{
+    width: 30%;
+    padding-left: 50px;
+}
